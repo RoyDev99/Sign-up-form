@@ -1,0 +1,31 @@
+.img{
+ background-image:url("background pct.pnj");
+ background-size: 600px 1050px;
+ background-repeat: no-repeat;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ height:1050px;
+ width:530px;
+}
+
+.img .logoName{
+ display:flex;
+ justify-content:center;
+ color:white;
+ font-weight:bold;
+ font-size:90px;
+ font-family:'Brush Script MT', cursive;
+ margin-top:250px;
+ background: rgba(0, 0, 0, 0.4);
+ padding:10px;
+}
+
+.img .logoName img{
+ height:100px;
+}
+
+.side{
+ height:500px;
+ margin-left:550px;
+}
