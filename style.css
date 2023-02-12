@@ -1,31 +1,84 @@
 .img{
- background-image:url("background pct.pnj");
+ background-image: url("background pct.pnj");
  background-size: 600px 1050px;
  background-repeat: no-repeat;
  position: absolute;
  top: 0px;
  left: 0px;
- height:1050px;
- width:530px;
+ height: 1050px;
+ width: 530px;
 }
 
 .img .logoName{
- display:flex;
- justify-content:center;
- color:white;
- font-weight:bold;
- font-size:90px;
- font-family:'Brush Script MT', cursive;
- margin-top:250px;
+ display: flex;
+ justify-content: center;
+ color: white;
+ font-weight: bold;
+ font-size: 90px;
+ font-family: 'Brush Script MT', cursive;
+ margin-top: 250px;
  background: rgba(0, 0, 0, 0.4);
- padding:10px;
+ padding: 10px;
 }
 
 .img .logoName img{
- height:100px;
+ height: 100px;
 }
 
 .side{
- height:500px;
- margin-left:550px;
+ margin-left:522px;
+ font-family: Arial;
 }
+
+.side .text{
+ margin: -10px -10px 0px 0px;
+ padding: 190px 20px 50px 30px;
+ font-size: 23px;
+ line-height: 28px;
+ background-color: rgba(0, 0, 0, 0.05);
+}
+.side .SignUp{
+ box-shadow:0px 5px 10px #f2f2ff;
+ padding-top:20px;
+ margin-right:-10px;
+}
+
+.side .SignUp p{
+ padding:0px 20px 20px 30px;
+ font-size: 23px;
+}
+
+fieldset{
+ display:flex;
+ border:0px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+.side .SignUp #in{
+ margin-bottom: 30px;
+ padding: 5px;
+ border-radius: 5px;
+}
+
+.side .SignUp .firstCol{
+ display:flex;
+ flex-direction:column;
+ font-size:18px;
+ padding-left:30px;
+ line-height: 28px;
+ width:300px;
+}
+
+.side .SignUp .secondCol{
+ display:flex;
+ flex-direction:column;
+ font-size:18px;
+ padding-left:30px;
+ line-height: 28px;
+ width:300px;
+}
+
+
