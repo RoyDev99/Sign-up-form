@@ -5,7 +5,12 @@ function checkInputs(){
  let in4= document.getElementById("in4").value;
  let in5= document.getElementById("in5").value;
  let in6= document.getElementById("in6").value;
- 
+ let count1=0;
+ let count2=0;
+ let count3=0;
+ let count4=0;
+ let count5=0;
+ let count6=0;
  if(in1=="")
  {
   document.getElementById("in1").style.borderColor="red";
@@ -13,6 +18,7 @@ function checkInputs(){
  else
  {
   document.getElementById("in1").style.borderColor="green";
+  count1=1;
  }
  
  if(in2=="")
@@ -22,6 +28,7 @@ function checkInputs(){
  else
  {
   document.getElementById("in2").style.borderColor="green";
+  count2=1;
  }
  
  if(in3=="")
@@ -31,6 +38,7 @@ function checkInputs(){
  else
  {
   document.getElementById("in3").style.borderColor="green";
+  count3=1;
  }
  
  if(in4=="")
@@ -40,6 +48,7 @@ function checkInputs(){
  else
  {
   document.getElementById("in4").style.borderColor="green";
+  count4=1;
  }
  
  if(in5=="")
@@ -49,6 +58,7 @@ function checkInputs(){
  else
  {
   document.getElementById("in5").style.borderColor="green";
+  count5=1;
  }
  
  if(in6=="")
@@ -58,10 +68,21 @@ function checkInputs(){
  else
  {
   if(in6===in3){
-  document.getElementById("in6").style.borderColor="green";}
+  document.getElementById("in6").style.borderColor="green";
+  count6=1;
+  }
   else{
    document.getElementById("in6").style.borderColor="red";
   }
+ }
+ 
+ if(count1==1 && count2==1 && count3==1 && count4==1 && count5==1 && count6==1)
+ {
+  alert("welcome " +in1+" "+in4);
+ }
+ else
+ {
+  alert("Please check your input");
  }
 }
 
