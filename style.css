@@ -28,6 +28,7 @@
 .side{
  margin-left:522px;
  font-family: Arial;
+ margin-right:-10px;
 }
 
 .side .text{
@@ -38,9 +39,8 @@
  background-color: rgba(0, 0, 0, 0.05);
 }
 .side .SignUp{
- box-shadow:0px 5px 10px #f2f2ff;
+ box-shadow:0px 10px 10px #f2f2ff;
  padding-top:20px;
- margin-right:-10px;
 }
 
 .side .SignUp p{
@@ -52,12 +52,14 @@ fieldset{
  display:flex;
  border:0px;
 }
-
+input:focus{
+ border-color:blue;
+}
 input:invalid {
   border-color: red;
 }
 
-.side .SignUp #in{
+.side .SignUp #in1, #in2, #in3, #in4, #in5, #in6 {
  margin-bottom: 30px;
  padding: 5px;
  border-radius: 5px;
@@ -81,4 +83,34 @@ input:invalid {
  width:300px;
 }
 
+.side .Creat_Account{
+ height:280px;
+ background-color: rgba(0, 0, 0, 0.05);
+}
+
+.Creat_Account button{
+ background-color: #596D48;
+ box-shadow:0px 5px 10px #1c1c1e;
+ border-radius:5px;
+ color:white;
+ font-weight: bold;
+ padding:20px 50px;
+ font-size:18px;
+ margin:30px 20px 20px 30px;
+}
+
+.Creat_Account button:hover {
+ border: 3px solid #596D48;
+ background-color: white;
+ color: black;
+}
+.Creat_Account p{
+ margin:20px 20px 20px 30px;
+ font-size: 18px;
+}
+
+.Creat_Account p a{
+ color:#596D48;
+ text-decoration:none;
+}
 

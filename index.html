@@ -1,9 +1,10 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
  <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
+  <script src="control.js"></script>
   <title>Sign up Form</title>
  </head>
  
@@ -29,22 +30,29 @@
     <fieldset>
     <label class="firstCol">
      First Name
-     <input type="text" id="in" name="first_name" placeholder="Your Fisrt Name">
+     <input type="text" id="in1" name="first_name" placeholder="Your Fisrt Name">
      Email
-     <input type="email" id="in" name="email" placeholder="example@example.com">
+     <input type="email" id="in2" name="email" placeholder="example@example.com">
      Password
-     <input type="password" id="in" name="pass" placeholder="Password">
+     <input type="password" id="in3" name="pass" placeholder="Password">
     </label>
     
     <label class="secondCol">
      Last Name
-     <input type="text" id="in" name="first_name" placeholder="Your Last Name">
+     <input type="text" id="in4" name="first_name" placeholder="Your Last Name">
      Phone Number
-     <input type="numbers" id="in" name="email" placeholder="Must include 8 numbers" maxlength="8">
+     <input type="numbers" id="in5" name="email" placeholder="Must include 8 numbers" maxlength="8">
      Confirm Password
-     <input type="password" id="in" name="pass" placeholder="Repeat the Password">
+     <input type="password" id="in6" name="pass" placeholder="Repeat the Password">
     </label>
     </fieldset>
+   </div>
+   
+   <div class="Creat_Account">
+    <button onclick="checkInputs()">Creat Account</button>
+    <p>Already have an account?
+    <a href="">Log in</a>
+    </p>
    </div>
    
   </div>
